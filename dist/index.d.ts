@@ -1,1 +1,1 @@
-export { EventsManager } from './events-manager';
+export {};
