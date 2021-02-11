@@ -1,2 +1,3 @@
 # tiny
-Tiny package
+
+Tiny package for events dispatcher

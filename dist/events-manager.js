@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.EventsManager = void 0;
 class EventListener {
     constructor(type, callback, context) {
         this.type = type;
@@ -8,7 +5,7 @@ class EventListener {
         this.context = context;
     }
 }
-class EventsManager {
+export class EventsManager {
     constructor() {
         this._listeners = [];
     }
@@ -43,4 +40,3 @@ class EventsManager {
         }
     }
 }
-exports.EventsManager = EventsManager;
